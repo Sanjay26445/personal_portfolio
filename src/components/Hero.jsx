@@ -28,10 +28,10 @@ export default function Hero() {
           <a href="https://github.com/Sanjay26445" target="_blank" rel="noopener noreferrer" className="link-btn">
             <Github size={20} /> GitHub
           </a>
-          <a href="https://www.linkedin.com/in/sanjay-mb" target="_blank" rel="noopener noreferrer" className="link-btn">
+          <a href="https://www.linkedin.com/in/sanjay-mb-9190661aa/" target="_blank" rel="noopener noreferrer" className="link-btn">
             <Linkedin size={20} /> LinkedIn
           </a>
-          <a href="https://sanjaymb.netlify.app/" target="_blank" rel="noopener noreferrer" className="link-btn">
+          <a href="https://sanjay26445.github.io/personal_portfolio/" target="_blank" rel="noopener noreferrer" className="link-btn">
             <ExternalLink size={20} /> Portfolio
           </a>
           <a href="mailto:sanjaymb26@gmail.com" className="link-btn">

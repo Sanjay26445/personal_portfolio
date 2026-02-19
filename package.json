@@ -2,7 +2,7 @@
   "name": "portfolio-sanjay",
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://sanjay26445.github.io/portfolio",
+  "homepage": "https://sanjay26445.github.io/personal_portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -40,11 +40,11 @@ export default function Contact() {
               <Github size={28} />
               <span>GitHub</span>
             </a>
-            <a href="https://www.linkedin.com/in/sanjay-mb" target="_blank" rel="noopener noreferrer" className="social-link">
+            <a href="https://www.linkedin.com/in/sanjay-mb-9190661aa/" target="_blank" rel="noopener noreferrer" className="social-link">
               <Linkedin size={28} />
               <span>LinkedIn</span>
             </a>
-            <a href="https://sanjaymb.netlify.app/" target="_blank" rel="noopener noreferrer" className="social-link">
+            <a href="https://sanjay26445.github.io/personal_portfolio/" target="_blank" rel="noopener noreferrer" className="social-link">
               <span className="portfolio-icon">🌐</span>
               <span>Portfolio</span>
             </a>
