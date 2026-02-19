@@ -1,0 +1,15 @@
+.app {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 0 16px;
+  }
+}

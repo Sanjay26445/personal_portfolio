@@ -1,0 +1,129 @@
+.header {
+  padding: 20px 0;
+  border-bottom: 1px solid;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+}
+
+.light .header {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-bottom-color: var(--border-light);
+}
+
+.dark .header {
+  background-color: rgba(15, 23, 42, 0.8);
+  border-bottom-color: var(--border-dark);
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-link {
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  position: relative;
+}
+
+.light .nav-link {
+  color: var(--text-light-secondary);
+}
+
+.dark .nav-link {
+  color: var(--text-dark-secondary);
+}
+
+.nav-link:hover {
+  color: var(--primary);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.light .theme-toggle {
+  color: var(--text-light);
+}
+
+.light .theme-toggle:hover {
+  background-color: var(--bg-light-secondary);
+}
+
+.dark .theme-toggle {
+  color: var(--text-dark);
+}
+
+.dark .theme-toggle:hover {
+  background-color: var(--bg-dark-secondary);
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    padding: 0 16px;
+    gap: 16px;
+  }
+
+  .logo h1 {
+    font-size: 20px;
+  }
+
+  .nav-links {
+    gap: 16px;
+    font-size: 13px;
+  }
+
+  .nav-link {
+    font-size: 13px;
+  }
+}
